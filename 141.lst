@@ -1,0 +1,18 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no141;
+    2|var
+    3|  aaaaaaaaaaaaaaab : integer;
+    4|begin
+    5|  read(aaaaaaaaaaaaaaa);
+    6|  read(aaaaaaaaaaaaaaab);
+    7|  read(aaaaaaaaaaaaaaac);
+    8|  aaaaaaaaaaaaaaa := aaaaaaaaaaaaaaab + aaaaaaaaaaaaaaac;
+    9|  write(aaaaaaaaaaaaaaa);
+   10|  write(aaaaaaaaaaaaaaab);
+   11|  write(aaaaaaaaaaaaaaac);
+   12|end.
+
+COMPILATION TERMINATED      0 ERRORS ENCOUNTERED

@@ -1,0 +1,28 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no152;
+    2|  { requires 102 temporaries with 101 allocated }
+    3|  var    sum,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v : integer;
+    4| begin
+    5|  read(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v);
+    6|  sum := (a+b)+
+    7|         ((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+
+    8|         ((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+
+    9|         ((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+
+   10|         ((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+
+   11|         ((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+
+   12|         ((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+
+   13|         ((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+
+   14|         ((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+
+   15|         ((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+
+   16|         ((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+
+   17|         (a+b)
+   18|         ))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+   19|         ))))))))))))))))))))))))))))));
+   20|
+   21|  write(sum);
+   22|end.
+
+COMPILATION TERMINATED      0 ERRORS ENCOUNTERED

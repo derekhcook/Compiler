@@ -1,0 +1,23 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no131;
+    2|const
+    3|  a = true;
+    4|  b = a;
+    5|  c = not a;
+    6|  d = false;
+    7|  e = d;
+    8|  f = not d;
+    9|  g = not true;
+   10|  h = g;
+   11|  i = not g;
+   12|  j = not false;
+   13|  k = j;
+   14|  l = not j;
+   15|begin
+   16|  write(a,b,c,d,e,f,g,h,i,j,k,l);
+   17|end.
+
+COMPILATION TERMINATED      0 ERRORS ENCOUNTERED
