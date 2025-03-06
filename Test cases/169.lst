@@ -1,0 +1,13 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no169;
+    2|const w=3;x=true;
+    3|var   a,b,c,d,e:integer;
+    4|begin
+    5|  read(a);
+    6|  d := a mod x; 
+Error: Line 6: binary 'mod' requires integer operands
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED

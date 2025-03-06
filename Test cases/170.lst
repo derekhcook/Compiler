@@ -1,0 +1,16 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no170;
+    2|const w=3;x=true;
+    3|var   a,b,c,d,e:integer;
+    4|begin
+    5|  read(a);
+    6|  d := -5;
+    7|  d := -d;
+    8|  d := -(-(-d));
+    9|  d := -x;
+Error: Line 9: unary '-' requires integer operand
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED

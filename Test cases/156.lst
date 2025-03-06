@@ -1,0 +1,21 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no156;
+    2|const
+    3|  a = true;
+    4|  b = false;
+    5|  c = not false;
+    6|  d = not true;
+    7|  e = 5;
+    8|  f = +5;
+    9|  g = -5;
+   10|  h = g;
+   11|var
+   12|  i : integer;
+   13|begin
+   14|  read(i; 
+Error: Line 14: ')' expected are non_key_id in "read"
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED

@@ -1,0 +1,51 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no173;
+    2|const w=3;x=true;
+    3|var   d:boolean;
+    4|      a,b:integer;
+    5|begin
+    6|  d := x = x;
+    7|  d := x = not x;
+    8|  d := not x = x;
+    9|  d := not x = not x;
+   10|
+   11|  d := x = not false;
+   12|  d := not true = x;
+   13|  d := false = false;
+   14|  d := false = true;
+   15|  d := true = false;
+   16|  d := true = true;
+   17|  d := not false = not false;
+   18|  d := not false = not true;
+   19|  d := not true = not false;
+   20|  d := not true = not true;
+   21|
+   22|  read(a,b);
+   23|
+   24|  d := -a = -b;
+   25|  d := -a = b;
+   26|  d := -a = +b;
+   27|  d := a = -b;
+   28|  d := a = b;
+   29|  d := a = +b;
+   30|  d := +a = -b;
+   31|  d := +a = b;
+   32|  d := +a = +b;
+   33|
+   34|  d := -4301 = -4301;
+   35|  d := -4301 = 4301;
+   36|  d := -4301 = +4301;
+   37|  d := 4301 = -4301;
+   38|  d := 4301 = 4301;
+   39|  d := 4301 = +4301;
+   40|  d := +4301 = -4301;
+   41|  d := +4301 = 4301;
+   42|  d := +4301 = +4301;
+   43|
+   44|  d := w = x; 
+Error: Line 44: binary '=' requires integer operands
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED

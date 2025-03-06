@@ -1,0 +1,35 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no176;
+    2|const w=3;x=true;
+    3|var   d:boolean;
+    4|      a,b:integer;
+    5|begin
+    6|  read(a,b);
+    7|
+    8|  d := -a <= -b;
+    9|  d := -a <= b;
+   10|  d := -a <= +b;
+   11|  d := a <= -b;
+   12|  d := a <= b;
+   13|  d := a <= +b;
+   14|  d := +a <= -b;
+   15|  d := +a <= b;
+   16|  d := +a <= +b;
+   17|
+   18|  d := -4301 <= -4301;
+   19|  d := -4301 <= 4301;
+   20|  d := -4301 <= +4301;
+   21|  d := 4301 <= -4301;
+   22|  d := 4301 <= 4301;
+   23|  d := 4301 <= +4301;
+   24|  d := +4301 <= -4301;
+   25|  d := +4301 <= 4301;
+   26|  d := +4301 <= +4301;
+   27|
+   28|  d := true <= w; 
+Error: Line 28: binary '<=' requires integer operands
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED

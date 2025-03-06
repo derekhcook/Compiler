@@ -1,0 +1,34 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no165;
+    2|const
+    3|  a = true;
+    4|  b = false;
+    5|  c = not false;
+    6|  d = not true;
+    7|  e = 5;
+    8|  f = +5;
+    9|  g = -5;
+   10|  h = g;
+   11|var
+   12|  i, j : integer;
+   13|  k : boolean;
+   14|begin
+   15|  read(i) 
+   16|  ; read(j);
+   17|  write(i, j);
+   18|  k := not (a = c); {legal}
+   19|  k := not true; {legal}
+   20|  k := not c; {legal}
+   21|  i := +(e + f); {legal}
+   22|  i := +4301; {legal}
+   23|  i := +g; {legal}
+   24|  i := -(f - g); {legal}
+   25|  i := -4301; {legal}
+   26|  i := -g; {legal}
+   27|  i := -program;
+Error: Line 27: expected '(', integer, or non_key_id
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED

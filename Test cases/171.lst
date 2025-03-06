@@ -1,0 +1,17 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no171;
+    2|const w=3;x=true;
+    3|var   a,b,c:integer;
+    4|      d,e:boolean;
+    5|begin
+    6|  d := not x;
+    7|  d := not true;
+    8|  d := not false;
+    9|  d := not (not (not x));
+   10|  d := not a;
+Error: Line 10: unary 'not' requires boolean operand
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED
