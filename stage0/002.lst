@@ -1,0 +1,13 @@
+STAGE0: Trey Fleming, Derek Cook    Tue Nov 19 20:07:26 2024
+LINE NO.  SOURCE STATEMENT
+
+    1|program stage0no002;
+    2|      {illustrate erroneous use of Pascallite features:}
+    3|	    {odd vs. even length in comment okay          }
+    4|        {should find z+ as illegal name              }
+    5|
+    6|   var x: integer;     
+    7|       z+:
+ERROR: Line 7: ":" expected
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED

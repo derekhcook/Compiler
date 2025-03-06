@@ -1,0 +1,9 @@
+STAGE0:  Trey Fleming, Derek Cook    Tue Nov 19 20:44:26 2024LINE NO.              SOURCE STATEMENT
+
+    1|program stage0no004;
+    2|      {x may not be redefined}
+    3|
+    4|   var x: integer; {x may not be redefined}
+    5|       x: integer; 
+Error: Line 5: Multiple name definition: x
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED
