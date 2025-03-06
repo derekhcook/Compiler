@@ -1,0 +1,23 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|{contributed by David Wolfe}
+    2|program dwwtest1 {stage1no144;};
+    3|var
+    4|  a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z : integer;
+    5|  sum1, sum2, sum3, sum4, sum5 : integer;
+    6|  aa, bb, cc, dd : boolean;
+    7|begin
+    8|  sum1 := (a+b+((c+d)+((e+f)+((g+h)+((i+j)+((k+l)+((m+n)+((o+p)+((q+r)+((s+t)+((u+v)+((w+x)+(y+z)))))))))))));
+    9|  sum2 := a+b*c+d*e+f*g+h*i+j*k+l*m+n*o+p*q+r*s+t*u+v*w+x*y+z;
+   10|  sum3 := a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z;
+   11|  sum4 := -(-a++b)*+(+c+-d)*-(+e-+f)*+(-g--h);
+   12|  sum5 := -(-(-(-(-(-a)))));
+   13|  aa   := (a=b) or (c<d) or (e<=f) or (g>h) or (i>=j) or (k<>l);
+   14|  bb   := (aa=bb) and (cc<>dd);
+   15|  cc   := not (not aa = not bb) and not (c<d);
+   16|  dd   := not (not (not (not aa)));
+   17|end.
+
+COMPILATION TERMINATED      0 ERRORS ENCOUNTERED

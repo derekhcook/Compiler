@@ -1,0 +1,14 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no142;
+    2|var
+    3|  a, b, c, d, e, f, g : integer;
+    4|begin
+    5|  read(a, b, c, d, e, f);
+    6|  g := a mod (b * (c div (d - (e + f)));
+
+Error: Line 6: ')' expected
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED

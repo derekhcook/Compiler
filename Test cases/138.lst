@@ -1,0 +1,17 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no138;
+    2|var
+    3|  a, b, c, d : integer;
+    4|  e          : boolean;
+    5|begin
+    6|  read(a, b);
+    7|  c := a - a div b * b;
+    8|  d := a mod b;
+    9|  e := c = d;
+   10|  write(a, b, c, d, e);
+   11|end.
+
+COMPILATION TERMINATED      0 ERRORS ENCOUNTERED
