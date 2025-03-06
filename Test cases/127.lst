@@ -1,0 +1,11 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no127;
+    2|  const a = 5;
+    3|begin
+    4|  read(a); 
+Error: Line 4: reading in of read-only location 'a'
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED

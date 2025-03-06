@@ -1,0 +1,10 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no129;
+    2|begin
+    3|  write(5)
+Error: Line 3: non-keyword identifier expected
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED
