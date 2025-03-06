@@ -1,0 +1,10 @@
+STAGE1:  Trey Fleming, Derek Cook    Fri Dec  6 00:01:57 2024
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage1no125;
+    2|begin
+    3|  read(a); 
+Error: Line 3: reference to undefined variable a
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED
